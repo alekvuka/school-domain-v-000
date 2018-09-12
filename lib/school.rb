@@ -12,11 +12,10 @@ class School
 
   def roster
       @roster = Hash.new
-      
   end
 
   def add_student(name, grade)
-
+    roster 
     binding.pry
     @roster[grade => name]
 
