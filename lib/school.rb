@@ -15,8 +15,8 @@ class School
   def add_student(name, grade)
 
 
-      @roster[grade] = Array.new
-      @roster[grade].push(name)
+      @roster[grade] = [name]
+
 
       #ROSTER.each do |gr, nm|
       #  if gr == grade
