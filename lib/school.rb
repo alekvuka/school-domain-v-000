@@ -25,11 +25,9 @@ class School
       #  end
       #end
 
-    else
-      ROSTER[grade] = name
-    end
-
-
+    #else
+    #  ROSTER[grade] = name
+    #end
 
   end
 
