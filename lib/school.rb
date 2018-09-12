@@ -1,5 +1,7 @@
 # code here!
 
+require pry
+
 class School
 
   #ROSTER = Hash.new
