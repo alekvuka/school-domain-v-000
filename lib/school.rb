@@ -12,6 +12,7 @@ class School
 
   def roster
       @roster = Hash.new
+      binding.pry
   end
 
   def add_student(name, grade)
